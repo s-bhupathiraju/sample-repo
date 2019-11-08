@@ -1,0 +1,18 @@
+{
+  "title": "user",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "./address.v1.json"
+    }
+  }
+}
