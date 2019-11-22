@@ -1,0 +1,9 @@
+{
+  "title": "hello.v1.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
