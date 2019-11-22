@@ -1,7 +1,5 @@
-title: article
+title: article.v1
 type: object
 properties:
-  AN_No:
-    type: string
-  AN_Name:
+  id:
     type: string
