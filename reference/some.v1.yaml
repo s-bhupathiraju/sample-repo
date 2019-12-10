@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: some
+  version: '1.0'
+  description: some desc
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /users/hello:
+    get:
+      summary: get user hello
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  '':
+                    $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo2/models/discover-medical-hello.yaml'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
+components:
+  schemas: {}
+  securitySchemes: {}
