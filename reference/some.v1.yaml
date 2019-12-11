@@ -19,7 +19,7 @@ paths:
                 type: object
                 properties:
                   '':
-                    $ref: 'http://localhost:8080/api/nodes.raw?srn=gh/s-bhupathiraju/sample-repo2/models/discover-medical-hello.yaml'
+                    $ref: ../models/address.v1.json
       requestBody:
         content:
           application/json:
