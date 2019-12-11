@@ -20,6 +20,8 @@ paths:
                 properties:
                   '':
                     $ref: ../models/address.v1.json
+                required:
+                  - ''
       requestBody:
         content:
           application/json:

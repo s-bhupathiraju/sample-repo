@@ -1,0 +1,5 @@
+title: discover.medical.address
+type: object
+properties:
+  id:
+    type: string
